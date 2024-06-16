@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Gift</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="wish-styles.css">
+    <link rel="stylesheet" href="reveal-styles.css">
+</head>
+<body>
+    <div class="wish-container">
+        <div class="wish-message" id="password-section">
+            <h1 class="wish-title">Enter Password</h1>
+            <input type="password" id="password-input" placeholder="Enter password">
+            <button id="submit-password">Submit</button>
+            <p id="error-message" style="color: red; display: none;">Incorrect password. Please try again.</p>
+            <p>If you don't know the password, it will be provided tomorrow, babe!</p>
+        </div>
+        <div class="wish-message" id="gift-section" style="display: none;">
+            <h1 class="wish-title">Your Gift, Bujji!</h1>
+            <p class="wish-text">Here are the possible gifts:</p>
+            <ul id="gift-list">
+                <li>1 Bag</li>
+                <li>2 Watch</li>
+                <li>3 Sandal</li>
+                <li>4 Tshirt</li>
+                <li>5 Ornaments</li>
+            </ul>
+        </div>
+    </div>
+    <script src="reveal-script.js"></script>
+</body>
+</html>

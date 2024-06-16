@@ -1,0 +1,89 @@
+/* reveal-styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.wish-container {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.wish-title {
+    font-size: 36px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+/* Message styles */
+.wish-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wish-text {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Password section */
+#password-section {
+    display: block;
+}
+
+#password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+#submit-password {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#submit-password:hover {
+    background-color: #d44c85;
+}
+
+#error-message {
+    color: red;
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wish-container {
+        padding: 10px;
+    }
+    .wish-title {
+        font-size: 28px;
+    }
+    .wish-text {
+        font-size: 16px;
+    }
+    #password-input,
+    #submit-password {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
